@@ -17,13 +17,13 @@ Luego de esto en **Tenant settings > Publish to web** se debe habilitar la opci√
 ![Paso 2](Permisos_publicar_paso_dos.png "Paso dos")
 
 ### Obtener Url Reporte
-Para otener la url del reprote publicado, se debe ingresar **File > Embed report Publish To Web**
+Para otener la url del reporte publicado, se debe ingresar **File > Embed report Publish To Web**
 ![Paso 1](Obtener_url_uno.png "Paso Uno Url")
 
 Luego el sistema muestra una pantalla con las urls para embeber el reporte
-![Paso dos](Obtener_url_paso_dos.png)
+![Paso 2](Obtener_url_paso_dos.png "Paso dos url")
 
-Asi quedaria la url para el reprote de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
+Asi quedaria la url para el reporte de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
 
 
 >Aqui se encuentra un aticulo de Microsoft con un paso a paso de como agregar el c√≥digo necesario de como embeber un reporte de power bi en React 
