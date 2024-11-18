@@ -21,7 +21,7 @@ Para otener la url del reporte publicado, se debe ingresar **File > Embed report
 ![Paso 1](Obtener_url_uno.png "Paso Uno Url")
 
 Luego el sistema muestra una pantalla con las urls para embeber el reporte
-![Paso 2](Obtener_url_paso_dos.png "Paso dos url")
+![Paso 2](Obtener_Url_dos.png "Paso dos url")
 
 Asi quedaria la url para el reporte de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
 
