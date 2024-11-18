@@ -1,77 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-----------------
-
 # COMO EMBEBER UN REPORTE EN POWER BI EN UN PROYECTO REACT ![Logo power Bi ](logo_powerbi.jpg "Power Bi Logo")
 
 Bienvenidos, este es un turorial de como agregar o implementar un reporte hecho en PowerBi en un sitio web de react.
@@ -90,6 +16,15 @@ Debe tener en cuenta esta configuraci처n, para ingresar por favor vaya a **Confi
 Luego de esto en **Tenant settings > Publish to web** se debe habilitar la opci처n **Allow users to create new embed codes** para que le permita a los usuario embeber reportes de Power Bi
 ![Paso 2](Permisos_publicar_paso_dos.png "Paso dos")
 
+### Obtener Url Reporte
+Para otener la url del reprote publicado, se debe ingresar **File > Embed report Publish To Web**
+![Paso 1](Obtener_url_uno.png "Paso Uno Url")
+
+Luego el sistema muestra una pantalla con las urls para embeber el reporte
+![Paso dos](Obtener_url_paso_dos.png)
+
+Asi quedaria la url para el reprote de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
+
 
 >Aqui se encuentra un aticulo de Microsoft con un paso a paso de como agregar el c처digo necesario de como embeber un reporte de power bi en React 
 [learn.microsoft.com Inserci처n de un elemento de Power BI en una aplicaci처n react](https://learn.microsoft.com/es-es/javascript/api/overview/powerbi/powerbi-client-react "Inserci처n de un elemento de Power BI en una aplicaci처n react") **de igualmanera aqui se deja el c처digo para hacerlo**
@@ -97,9 +32,10 @@ Luego de esto en **Tenant settings > Publish to web** se debe habilitar la opci�
 Se requiere agregar estas librerias para power implementar reportes de Power Bi 
 ```typescript
 import { PowerBIEmbed } from 'powerbi-client-react';
-import { models } from 'powerbi-client'; ```
+import { models } from 'powerbi-client'; 
+```
 
-
+**Se debe tener en cuenta que la url del reporte se agrega en el espacio**  `embedUrl: ''`
 ```typescript
 function App() {
   return (
