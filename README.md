@@ -1,33 +1,33 @@
-# COMO EMBEBER UN REPORTE EN POWER BI EN UN PROYECTO REACT ![Logo power Bi ](logo_powerbi.jpg "Power Bi Logo")
+# EMBEBER UN REPORTE EN POWER BI EN UN PROYECTO REACT ![Logo power Bi ](logo_powerbi.jpg "Power Bi Logo")
 
-Bienvenidos, este es un turorial de como agregar o implementar un reporte hecho en PowerBi en un sitio web de react.
+Bienvenidos, este es un tutorial de como agregar o implementar un reporte hecho en PowerBi en un sitio web de react.
 
 Inicialmente ingresé a descargar PowerBi Desktop [microsoft.com/download Descargar power bi Desktop desde la página oficial de Microsoft"](https://www.microsoft.com/es-es/download/details.aspx?id=58494 "Descargar power bi Desktop desde la página oficial de Microsoft")
 
-Luego creé una cuenta gratuita de 30 dias de Power Bi [app.powerbi.com](https://app.powerbi.com/admin-portal/capacities/capacitiesList/trial?experience=power-bi "Microsoft Fabric") como heerramienta que nos permitirá publicar o subir reportes de Power Bi en la web y que nos retornará una url para embeber dentro del React
+Luego creé una cuenta gratuita de 30 días de Power Bi [app.powerbi.com](https://app.powerbi.com/admin-portal/capacities/capacitiesList/trial?experience=power-bi "Microsoft Fabric") como herramienta que nos permitirá publicar o subir reportes de Power Bi en la web y que nos retornará una url para embeber dentro del React
 
-Aqui encontrará un tutorial de como crear un cuenta en power bi gratis 
+Aquí encontrará un tutorial de cómo crear una cuenta en power bi gratis 
 [youtube.com Cómo iniciar sesión en Power BI Service GRATIS 🤩](https://www.youtube.com/watch?v=upZTyad-brY "Cómo iniciar sesión en Power BI Service GRATIS 🤩")
 
 Debe tener en cuenta esta configuración, para ingresar por favor vaya a **Configuraciones > Admin portal** previamente de publicar el reporte de Power Bi
 ![Paso 1](Permisos_publicar_paso_uno.png "Paso uno")
 
 
-Luego de esto en **Tenant settings > Publish to web** se debe habilitar la opción **Allow users to create new embed codes** para que le permita a los usuario embeber reportes de Power Bi
+Luego de esto en **Tenant settings > Publish to web** se debe habilitar la opción **Allow users to create new embed codes** para que permita a los usuarios embeber reportes de Power Bi
 ![Paso 2](Permisos_publicar_paso_dos.png "Paso dos")
 
 ### Obtener Url Reporte
-Para otener la url del reporte publicado, se debe ingresar **File > Embed report Publish To Web**
+Para obtener la url del reporte publicado, se debe ingresar **File > Embed report Publish To Web**
 ![Paso 1](Obtener_url_uno.png "Paso Uno Url")
 
 Luego el sistema muestra una pantalla con las urls para embeber el reporte
 ![Paso 2](Obtener_Url_dos.png "Paso dos url")
 
-Asi quedaria la url para el reporte de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
+Así quedaría la url para el reporte de este ejercicio [app.powerbi.com Reporte Mapa](https://app.powerbi.com/view?r=eyJrIjoiZjUyOWQ2YTUtYjQxOS00NWZmLTk1ZWItMTZlYjIzNGM4NDNjIiwidCI6IjgzZDExMzQzLWQxMzUtNDQxOC04OWE4LWY1ODUxMjIwMmMwZiIsImMiOjR9 "Reporte Mapa")
 
 
->Aqui se encuentra un aticulo de Microsoft con un paso a paso de como agregar el código necesario de como embeber un reporte de power bi en React 
-[learn.microsoft.com Inserción de un elemento de Power BI en una aplicación react](https://learn.microsoft.com/es-es/javascript/api/overview/powerbi/powerbi-client-react "Inserción de un elemento de Power BI en una aplicación react") **de igualmanera aqui se deja el código para hacerlo**
+>Aquí se encuentra un articulo de Microsoft con un paso a paso de como agregar el código necesario de como embeber un reporte de power bi en React 
+[learn.microsoft.com Inserción de un elemento de Power BI en una aplicación react](https://learn.microsoft.com/es-es/javascript/api/overview/powerbi/powerbi-client-react "Inserción de un elemento de Power BI en una aplicación react") **de igual manera aquí se deja el código para hacerlo**
 
 Se requiere agregar estas librerias para power implementar reportes de Power Bi 
 ```typescript
@@ -82,7 +82,7 @@ function App() {
   );
 }
 ```
-Tener en cuenta los estilos css, ya que estos definen el tamano del reporte embebido en el aplicativo
+Tener en cuenta los estilos css, ya que estos definen el tamaño del reporte embebido en el aplicativo
 
 ```
 .Embed-container{
@@ -90,3 +90,5 @@ Tener en cuenta los estilos css, ya que estos definen el tamano del reporte embe
   width: 800%;
 }
 ```
+
+Good luck :smile:🥇
